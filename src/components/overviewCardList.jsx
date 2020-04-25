@@ -9,7 +9,7 @@ const OverviewCardList = (props) => {
 
     return (
         <div className="overviewCardList container mt-5 p-0">
-            <h3 className='text-grayishBlue mb-4'>
+            <h3 className={`mb-4 ${(light)? 'text-darkBlue' : 'text-lwhite'}`}>
                 <strong>Overview - Today</strong>
             </h3>
             <div className="d-lg-flex flex-wrap justify-content-between">
