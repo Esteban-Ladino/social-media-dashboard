@@ -5,7 +5,7 @@ Created using React.js
 ## How to clone
 You can clone the repository
 
-    $ git clone https://github.com/Esteban-Ladino/Wikipedia-clone
+    $ git clone https://github.com/Esteban-Ladino/social-media-dashboard.git
     
 ## Installation
 To install this project just type
