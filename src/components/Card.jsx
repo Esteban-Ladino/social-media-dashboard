@@ -19,7 +19,7 @@ const Card = (props) => {
                 <p className='fansType text-uppercase text-grayishBlue'>{card.fansType}</p>
                 <div className={`${stock} d-flex align-items-center`}>
                     <i className={`icon-${stock}`}></i>
-                    <strong className='stock-detail'>{(card.fansIncrement)? card.fansIncrement : card.fansDecrement} Today</strong>
+                    <strong className='stock-detail ml-1'>{(card.fansIncrement)? card.fansIncrement : card.fansDecrement} Today</strong>
                 </div>
             </div>
         </div>

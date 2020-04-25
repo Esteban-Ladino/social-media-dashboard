@@ -4,11 +4,6 @@
     font-style: normal;
 }
 
-.card {
-    background-color: hsl(227, 47%, 96%);
-}
-
-
 /* Light Theme */
 .bg-lwhite {
     background-color: hsl(0, 0%, 100%);
