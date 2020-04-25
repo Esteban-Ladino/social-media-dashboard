@@ -1,0 +1,16 @@
+.quantity {
+    font-size: 2rem;
+}
+
+.stock-percent {
+    font-family: 'Inter';
+    font-size: .7rem;
+}
+
+.card-body.bg-paleBlue:hover {
+    background-color: hsl(227, 47%, 96%);
+}
+
+.card-body.bg-desaturatedBlue:hover {
+    background-color: rgb(51, 58, 86);
+}

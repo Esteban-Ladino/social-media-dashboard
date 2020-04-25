@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter.ttf');
+    font-style: normal;
+}
+
+.card {
+    background-color: hsl(227, 47%, 96%);
+}
+
+
+/* Light Theme */
+.bg-lwhite {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.bg-paleBlue {
+    background-color: hsl(225, 100%, 98%);
+}
+
+.bg-grayishBlue {
+    background-color: hsl(227, 47%, 96%);
+}
+
+.bg-darkGrayishBlue {
+    background-color: hsl(228, 12%, 44%);
+}
+
+.text-grayishBlue {
+    color: hsl(228, 12%, 44%);
+}
+
+.text-darkBlue {
+    color: hsl(230, 17%, 14%);
+}
+
+/* Dark Theme */
+.bg-veryDarkBlue {
+    background-color: hsl(230, 17%, 14%);
+}
+
+.bg-darkBlue {
+    background: hsl(232, 19%, 15%);
+}
+
+.bg-desaturatedBlue {
+    background: hsl(228, 28%, 20%);
+}
+
+.text-desaturatedBlue {
+    color: hsl(228, 34%, 66%);
+}
+
+.text-lwhite {
+    color: hsl(0, 0%, 100%);
+}
+
+.text-darkPaleBlue {
+    color: rgb(147, 156, 186);
+}
+
+/* Border top color */
+.bt-facebook {
+    background: hsl(203, 89%, 53%);
+}
+
+.bt-twitter {
+    background: hsl(195, 100%, 50%);
+}
+
+.bt-instagram {
+    background: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+}
+
+.bt-youtube {
+    background: hsl(348, 97%, 39%);
+}
+
+
+/* stocks */
+.stock-detail {
+    font-size: 0.74rem;
+    font-family: 'Inter';
+}
+
+.increment {
+    color: hsl(163, 72%, 41%);
+}
+
+.decrement {
+    color: hsl(356, 69%, 56%);
+}
+
+
+/* icon */
+.icon-facebook {
+    content: url('../static/icon-facebook.svg');
+}
+
+.icon-twitter {
+    content: url('../static/icon-twitter.svg');
+}
+
+.icon-instagram {
+    content: url('../static/icon-instagram.svg');
+}
+
+.icon-youtube {
+    content: url('../static/icon-youtube.svg');
+}
+
+.icon-increment {
+    content: url('../static/icon-up.svg');
+}
+
+.icon-decrement {
+    content: url('../static/icon-down.svg');
+}
+
+.container-lg {
+    width: auto;
+}
+
+@media screen and (min-width: 769px) {
+    hr {
+        display: none;
+    }
+
+    .overviewCard {
+        min-width: 260px;
+    }
+}
