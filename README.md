@@ -16,6 +16,8 @@ To excecute type
 
     $ npm run start
 
+## Demo
+If you want to see the demo of this project deployed, you can visit it [here](https://esteban-ladino.github.io/social-media-dashboard/)
 
 ## Preview
 
